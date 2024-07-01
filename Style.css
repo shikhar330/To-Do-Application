@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+.add-task input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.add-task select {
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.add-task button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-task button:hover {
+    background-color: #3e8e41;
+}
+
+.task-lists {
+    margin-top: 20px;
+}
+
+.task-lists h2 {
+    margin-top: 0;
+}
+
+.task-lists ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-lists li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-lists li:last-child {
+    border-bottom: none;
+}
+
+.task-lists input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-lists .category {
+    font-size: 14px;
+    color: #666;
+}
+
+.task-lists .time {
+    font-size: 12px;
+    color: #999;
+}
+
+.task-lists .delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.task-lists .delete-btn:hover {
+    background-color: #cc0000;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Task List App</h1>
+    <div class="container">
+        <div class="add-task">
+            <input type="text" id="task-input" placeholder="Enter task">
+            <select id="category-select">
+                <option value="">Select a category</option>
+            </select>
+            <button id="add-task-btn">Add Task</button>
+            <button id="add-category-btn">Add Category</button>
+            <input type="text" id="category-input" placeholder="Enter new category">
+        </div>
+        <div class="task-lists">
+            <h2>Active Tasks</h2>
+            <ul id="active-task-list"></ul>
+            <h2>Completed Tasks</h2>
+            <ul id="completed-task-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
